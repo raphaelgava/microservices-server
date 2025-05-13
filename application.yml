@@ -9,12 +9,12 @@ spring:
         hibernate:
           SQL: DEBUG
 
-#propertie específica da aplicação
+#property específica da aplicação
 greeting-service:
   greeting: "Hello"
   default-value: "My github world"
 
-#propertie para exposição das informações da aplicação pelo actuator
+#property para exposição das informações da aplicação pelo actuator
 management:
   endpoints:
     web:
