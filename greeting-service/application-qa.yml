@@ -12,7 +12,7 @@ spring:
 #property específica da aplicação
 greeting-service:
   greeting: "Hola"
-  default-value: "Mi mundo github"
+  default-value: "Mi mundo github updated"
 
 #property para exposição das informações da aplicação pelo actuator
 management:
