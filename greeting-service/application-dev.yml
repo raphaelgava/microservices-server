@@ -9,17 +9,16 @@ spring:
         hibernate:
           SQL: DEBUG
 
-#exemplo 4
 #propertie específica da aplicação
 greeting-service:
-    greeting: "Hello"
-    default-value: "My world"
+  greeting: "Hello"
+  default-value: "My world"
 
 #propertie para exposição das informações da aplicação pelo actuator
 management:
-    endpoints:
-        web:
-            exposure:
-                include:
-                  - '*'
+  endpoints:
+    web:
+      exposure:
+        include:
+          - '*'
 

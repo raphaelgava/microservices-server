@@ -1,7 +1,7 @@
 # exemplo4
 spring:
   application:
-    name: microservice
+    name: greeting-service
 
   logging:
     level:
@@ -9,18 +9,17 @@ spring:
         hibernate:
           SQL: DEBUG
 
-#exemplo 4
 #propertie específica da aplicação
 greeting-service:
-    greeting: "Olá"
-    default-value: "Meu mundo"
+  greeting: "Olá"
+  default-value: "Meu mundo"
 
 #propertie para exposição das informações da aplicação pelo actuator
 management:
-    endpoints:
-        web:
-            exposure:
-                include:
-                  - '*'
+  endpoints:
+    web:
+      exposure:
+        include:
+          - '*'
 
 
